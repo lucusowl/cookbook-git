@@ -99,7 +99,7 @@ git은 `distributed version control system`입니다
 
 Personal Access Token(PAT)발급 & 캐싱과 같은 여러 방법으로 인증을 처리할 수 있지만 SSH는 암호통신을 위해 만들어진 프로토콜인 만큼 보편적으로 사용되는 기술이기에 해당 방법으로 설정합니다
 
-자세한 설정법은 [여기][추가예정]를 참고해주세요
+자세한 설정법은 [여기](ssh-setup.md)를 참고해주세요
 
 Appendix
 ===
