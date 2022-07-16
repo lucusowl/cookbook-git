@@ -208,3 +208,29 @@ git config --edit [범위 option]
 ```bash
 git config --global --unset user.name
 ```
+
+# git 최신 버전으로 업그레이드
+
+현재 git 버전 확인하기
+```bash
+git --version
+```
+
+`Windows`일 경우, 아래 명령어로 다운로드 & 설치 실행
+- git version이 `2.16.1` 이상일 경우
+	```bash
+	git update-git-for-windows
+	```
+
+- git version이 `2.14.2` ~ `2.16.1` 일 경우,
+	```bash
+	git update
+	```
+
+- git version이 `2.14.1` 이하일 경우, 삭제후 새 버전으로 재설치해주면 됩니다.
+
+`Linux` OS일 경우, 패키지 매니저 업데이트 후, 설치
+```bash
+sudo apt update
+sudo apt install git -y
+```
