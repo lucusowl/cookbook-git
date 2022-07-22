@@ -75,10 +75,9 @@ diff 와 merge 와 같이 운영에 구제적인 정보가 필요해 별도의 t
 
 # 원격 저장소 remote repository 설정
 
-git은 `distributed version control system`입니다
+git을 통해 내용을 백업하거나 다른 사람과 공유하고 협업을 하기 위해서는 언제나 이용할 수 있는 저장소가 필요합니다
 
-그래서 중앙식 시스템이 강제되지 않지만 백업과 공유의 편의를 위해
-제3자에 해당하는 host서버를 따로 두어 이 host를 원격 저장소로 활용하는 방식이 많습니다
+원격 저장소는 네트워크를 위한 공간을 지원합니다. 로컬 컴퓨터가 ssh와 같은 프로토콜의 노드(서버/클라이언트)가 되어 네트워크를 구성할 수 있지만 GitHub과 같이 저장소 서비스를 이용해 원격 저장소를 두는 방식이 많습니다
 
 ## 원격 저장소, Git Server as Service 가입
 
@@ -99,7 +98,7 @@ git은 `distributed version control system`입니다
 
 Personal Access Token(PAT)발급 & 캐싱과 같은 여러 방법으로 인증을 처리할 수 있지만 SSH는 암호통신을 위해 만들어진 프로토콜인 만큼 보편적으로 사용되는 기술이기에 해당 방법으로 설정합니다
 
-자세한 설정법은 [여기](ssh-setup.md)를 참고해주세요
+자세한 설정법은 [여기](https://github.com/lucusowl/cookbook-protocol/blob/main/ssh/ssh-key.md)를 참고해주세요
 
 Appendix
 ===

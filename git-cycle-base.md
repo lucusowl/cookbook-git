@@ -5,7 +5,7 @@ Introduction
 
 사용하고 있는 git UI App(VS Code, Sourcetree, git Kraken, [etc](https://git-scm.com/downloads/guis/))이 있다면 해당 인터페이스를 이용하면 됩니다
 
-git이 설치되어 있지 않다면 [여기](./git-setup.md)를 참고해 주세요
+git이 설치 및 설정이 되어 있지 않다면 [여기](./git-setup.md)를 참고해 주세요
 
 # git 프로젝트 생성
 
